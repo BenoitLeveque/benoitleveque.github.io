@@ -49,3 +49,9 @@ p, .p {
   font-size: 1.2em;
   margin-bottom: 1em;
 }
+
+code {
+    padding: 2px 4px;
+    border: 1px solid #E1E1E8;
+    background-color: #f7f7f9;
+}
