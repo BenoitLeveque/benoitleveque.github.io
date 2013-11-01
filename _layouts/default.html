@@ -11,7 +11,7 @@
 
         <link href="http://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet" type="text/css">
 
-        <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
+        <link rel="stylesheet" href="/css/normalize.css">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
@@ -26,10 +26,15 @@
             <h1 class="site-title">
                 <a href="{{site.baseurl}}">{{site.name}}</a>
             </h1>
-            <p class="site-description">
-                {{site.description}}
-            </p>
+
+            <ul class="nav-header">
+                <li class="nav-header-item"><a href="{{site.baseurl}}">Blog</a></li>
+                <li class="nav-header-item"><a href="{{site.baseurl}}a-propos.html">À propos</a><li>
+            </ul>
+
           </header>
+
+          <div class="clear"></div>
 
           <main>
             {{ content }}
