@@ -4,3 +4,6 @@ pygments: true
 comments:
     disqus:
         short_name: benoitlvque
+analytics:
+    id: UA-40716275-1
+    name: benoitleveque.fr
