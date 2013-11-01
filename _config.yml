@@ -1,3 +1,6 @@
 name: Benoît Lévêque
 markdown: redcarpet
 pygments: true
+comments:
+    disqus:
+        short_name: benoitlvque
