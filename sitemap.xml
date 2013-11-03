@@ -13,14 +13,14 @@ layout: nil
 
     {% for post in site.posts %}
         <url>
-            <loc>{{ site.baseurl }}{{ post.url }}</loc>
+            <loc>{{ site.url }}{{ post.url }}</loc>
         </url>
     {% endfor %}
 
     {% for page in site.pages %}
         {% if page.sitemap != null and page.sitemap == true %}
             <url>
-                <loc>{{ site.baseurl }}{{ page.url }}</loc>
+                <loc>{{ site.url }}{{ page.url }}</loc>
             </url>
         {% endif %}
     {% endfor %}
