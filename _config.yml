@@ -1,6 +1,7 @@
 name: Benoît Lévêque
 markdown: redcarpet
 pygments: true
+baseurl: http://benoitleveque.fr
 comments:
     disqus:
         short_name: benoitlvque
