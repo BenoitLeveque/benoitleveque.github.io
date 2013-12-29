@@ -115,6 +115,11 @@ sudo apachectl restart
 curl get.pow.cx | sh
 ```
 
+
+### Allez plus loin.
+
+Je ne réinstalle pas souvent mon environnement de développement, mais je pense que la prochaine fois que je vais le réinstaller j'essaierais d'utiliser Ansible ou quelque chose d'équivalent pour éviter de retourner voir cet article ou de chercher sur Internet.
+
 [macports]: https://trac.macports.org/wiki/howto/MAMP
 [liip_php]: http://php-osx.liip.ch/
 [brew]: http://brew.sh/
